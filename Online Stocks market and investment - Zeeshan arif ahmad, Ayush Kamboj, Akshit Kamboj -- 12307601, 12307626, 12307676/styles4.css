@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    background-image: linear-gradient(to bottom,black , purple);
+}
+
+.privacy-policy {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgb(191, 132, 201)0b0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-policy h2 {
+    color: #333;
+}
+
+.privacy-policy p {
+    color: #666;
+}
+
+.privacy-policy ul {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+

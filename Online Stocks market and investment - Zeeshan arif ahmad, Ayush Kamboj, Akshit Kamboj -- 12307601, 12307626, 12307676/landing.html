@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+    background:  linear-gradient(to top,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 180%),url('bacimg.png');
+    background-size: cover;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;   
+}
+#comlogo{
+    margin-top:20px;
+    height:100px;
+    margin-left: 60px;
+}
+h2{
+    display: inline;
+    position:absolute;
+    color:white;
+    top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+h3{
+    display: inline;
+    position: absolute;
+    color: white;
+    top:65px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav{
+    display: inline-block;
+    position: absolute;
+    margin-left: 200px;
+    font-size: large;
+    top: 90px;
+    word-spacing: 50px;
+}
+
+.icon{
+    display: inline-block;
+}
+.login{
+    position: absolute;
+    display: inline-block;
+    top:82px;
+    margin-left: 830px;
+    
+}
+.login button{
+    font-size: larger;
+    padding: 8px 30px;
+    border-radius: 18px;
+    color:white;
+    background-color: #663dff;
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    border:none;
+    
+
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.body{
+    position: absolute;
+    top: 240px;
+    margin-left: 100px;
+    color:white
+}
+.line1{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 50px;
+}
+.line2{
+    position: absolute;
+    margin-top: -30px;
+}
+.start{
+    position: absolute;
+    margin-top: 50px;
+}
+#gets{
+    padding: 8px 25px;
+    border-radius: 18px;
+    font-size: large;
+    display: inline-block;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.start a{
+    color: white;
+    text-decoration: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropcon1{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+.dropcon1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.dropcon1 a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropcon1 {display: block;}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.plugin{
+    position: absolute;
+    bottom: 45px;
+    right: 45px;
+} 
+.fa:hover {
+      opacity: 0.7;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatricShare</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon">
+                <img src="icon-removebg-preview.png" id="comlogo">
+                <h2>MetricShare</h2>
+                <h3>Solutions</h3>
+            </div>
+            <div class="nav">
+                <div class="dropdown">
+                    <a href="#sam1">About</a>
+                        <div class="dropcon1">
+                            <a href="portfolio.html">Portfolio</a>
+                            <a href="faq.html">FAQ</a>
+                            <a href="blog.html">Blog</a>
+                            <a href="privacy.html">Privacy Policy</a>
+                        </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#sam1">Pricing</a>
+                        <div class="dropcon1">
+                            <a href="CSE326-value-pack.html">Super Value Packs</a>
+                            <a href="CSE326.html">Charges</a>
+                        </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#sam1">Investments</a>
+                        <div class="dropcon1">
+                            <a href="Stockts to buy.html">Stocks Today</a>
+                            <a href="https://www.moneycontrol.com/indian-indices/nifty-50-9.html">NIFTY</a>
+                        <a href="https://groww.in/stocks/tata-motors-ltd">TATA Motors</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#sam1">Services</a>
+                    <div class="dropcon1">
+                        <a href="services.html">Overview</a>
+                        <a href="Calculators.html">Calculators</a>
+                    </div>
+                </div>
+                <a href="https://www.5paisa.com/share-market-today">Marketplace</a>
+            </div>
+            <div class="login">
+                <a href="Login.html">
+                <button id="login">Login</button>
+                </a>
+                <a href="signup.html">
+                <button>Sign-Up</button>
+                </a>
+            </div>
+        </div>
+        <div class="body">
+            <div class="line1">
+                <p>Invest Right<br> Invest Now in Stocks<br> Mutual Funds and IPOs</p>
+            </div>
+            <div class="line2">
+                <p>Powerful trading in Equities, Futures, Options, Commodities <br>and Currencies made simple,Transparent pricing No hidden charges</p>
+            </div>
+            <div class="start">
+                
+                <button id="gets" ><a href="signup.html">Get Started</a></button> &nbsp;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/watch?v=_ucD8sc30xY">&#9658; How it works ?</a>
+            </div>
+        </div>
+        <div class="plugin">
+            <a href="https://in.linkedin.com/" class="fa fa-linkedin"></a>
+            <br><br>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        </div>
+    </div>
+    
+  
+</body>
+</html>
